@@ -851,7 +851,7 @@ canvas_ribbon:
 # Please use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Internal path prefix. Please do not edit it.
-  _internal: lib
+  _internal: //o7x2b21wl.qnssl.com/lib
 
   # Internal version: 2.1.3
   jquery:
