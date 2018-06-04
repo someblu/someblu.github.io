@@ -851,7 +851,7 @@ canvas_ribbon:
 # Please use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Internal path prefix. Please do not edit it.
-  _internal: //o7x2b21wl.qnssl.com/lib
+  _internal: //cdn.someblu.com/lib
 
   # Internal version: 2.1.3
   jquery:
@@ -931,9 +931,9 @@ vendors:
 
 
 # Assets
-css: //o7x2b21wl.qnssl.com/css
-js: //o7x2b21wl.qnssl.com/js
-images: //o7x2b21wl.qnssl.com/images
+css: //cdn.someblu.com/css
+js: //cdn.someblu.com/js
+images: //cdn.someblu.com/images
 
 # Theme version
 version: 5.1.4
