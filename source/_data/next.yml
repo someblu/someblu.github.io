@@ -7,7 +7,7 @@
 # Site
 title: SomeBlu Blog
 subtitle: 
-description: Lok-tar! Ogar!
+description: Tah Dah!
 author: SomeBlu
 language: en
 timezone: America/Vancouver
@@ -821,7 +821,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # three_waves
 three_waves: false
