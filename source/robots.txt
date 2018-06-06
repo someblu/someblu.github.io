@@ -10,4 +10,4 @@ Disallow: /css/
 Disallow: /js/
 Disallow: /images/
 
-Sitemap: https://someblu.com/sitemap.xml
+Sitemap: https://www.someblu.com/sitemap.xml

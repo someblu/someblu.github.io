@@ -5,7 +5,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: SomeBlu Blog
+title: SomeBlu
 subtitle: 
 description: Tah Dah!
 author: SomeBlu
@@ -14,7 +14,7 @@ timezone: America/Vancouver
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://someblu.com/
+url: https://www.someblu.com/
 root: /
 permalink: posts/:abbrlink/
 permalink_defaults:
