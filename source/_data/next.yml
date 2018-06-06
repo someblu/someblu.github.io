@@ -534,9 +534,9 @@ gitment:
   cleanly: true # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
   github_user: someblu # MUST HAVE, Your Github ID
-  github_repo: Blog-Comments # MUST HAVE, The repo you use to store Gitment comments
-  client_id: ed6e83e411e5fcf4a85e # MUST HAVE, Github client id for the Gitment
-  client_secret: e0c9424e38086f9e01e47e166f42f04e4c11d97c # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  github_repo: Comments # MUST HAVE, The repo you use to store Gitment comments
+  client_id: 32017537087933293154 # MUST HAVE, Github client id for the Gitment
+  client_secret: 0dc52d71b1892ebc1b9bd5cbb2addb33323617ed # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
