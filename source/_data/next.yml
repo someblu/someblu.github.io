@@ -153,12 +153,12 @@ override: false
 # For example, you put your favicons into `hexo-site/source/images` directory.
 # Then need to rename & redefine they on any other names, otherwise icons from Next will rewrite your custom icons in Hexo.
 favicon:
-  small: /favicon/favicon-16x16.png
-  medium: /favicon/favicon-32x32.png
-  apple_touch_icon: /favicon/apple-touch-icon.png
-  safari_pinned_tab: /favicon/safari-pinned-tab.svg
-  android_manifest: /favicon/site.webmanifest
-  ms_browserconfig: /favicon/browserconfig.xml
+  small: //cdn.someblu.com/favicon/favicon-16x16.png
+  medium: //cdn.someblu.com/favicon/favicon-32x32.png
+  apple_touch_icon: //cdn.someblu.com/favicon/apple-touch-icon.png
+  safari_pinned_tab: //cdn.someblu.com/favicon/safari-pinned-tab.svg
+  android_manifest: //cdn.someblu.com/favicon/site.webmanifest
+  ms_browserconfig: //cdn.someblu.com/favicon/browserconfig.xml
 
 # Set default keywords (Use a comma to separate)
 keywords: "Hexo, NexT"
@@ -280,7 +280,7 @@ links_layout: block
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /images/avatar.jpg
+avatar: //cdn.someblu.com/images/avatar.jpg
 
 # Table Of Contents in the Sidebar
 toc:
