@@ -113,14 +113,6 @@ abbrlink:
 ## Themes: https://hexo.io/themes/
 theme: next
 
-# Deployment
-## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type: git
-  repo: git@github.com:someblu/someblu.github.io.git
-  branch: master
-  message: update
-
 # ---------------------------------------------------------------
 # Next Configuration
 # ---------------------------------------------------------------
