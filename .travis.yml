@@ -1,14 +1,19 @@
 language: node_js
 node_js: stable
+
 cache:
   directories:
   - node_modules
+
 install:
 - npm install
+
 before_script:
 - hexo clean
+
 script:
 - hexo g
+
 after_script:
 - cd public
 - git init
@@ -17,10 +22,19 @@ after_script:
 - git add .
 - git commit -m "Update"
 - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+# if it isn't a user/org page, please replace it with <master:gh-pages>
+
 branches:
   only:
   - source
+
 env:
   global:
   - GH_REF: github.com/someblu/someblu.github.io.git
   - secure: Rsi+G4mkHHKFe6qp19MNuWKHdKqZz6stLYotSlIXqt/xz7h5xqQU4JJrTwugvIskwQxWI0AxeY4HG5yLlbLCYJ2YrnzI06ex8rbpkmT8IZ/YAEVVCoa//DSw8x7Usr9xNYnpwyUXGGmaVZhOi4Nx2razYOhenCcUB9VZvl3koReh/IjKyGJ5XER8He3i5ONpHMKB4iOxkHFYfLpedcUgLs+cDWK6Aiz8M0TJPjBQPnhaxtk2jyyCEbMdoV1EXCWbC1kp7GqqADLuJAc/57KTZktpv/TsrYN8SOo9V47x3fcY08ENyZwB2Fcyn/P+IiV+FF1J6286aZds29Umk6pbNjot37b6MQTRh6olk/azwDMzuliG9ZT1c+Rn0/vCZgrgQHV9cixcgK1g1ArMR3eNuTq/vsnw329+nY9oRkKgvc7TJiJuiaRYX23DI00YASU98hDpU7hAiy7Ab9Twa9wYuGYk8opSLiwz2nHte0u+sxNSLBD7L7A+z0rxdTEq/uBXd5A+TxtWVEiAPNx4bSxdjhqEkJtQBKxHGQoEAj6/WlWNypdNPEY/FbkRpSNdZYZLRow78GM5Y1SHxNlREDSgZGZUT2Dh3SuJrAwm/WWJk4dwxemJG+PpFSL0pDKIvAZnpTKhJmCqaHteN1IH23KN/OwBjFWq5uLzC2Q4mFaTgJg=
+
+notifications:
+  email:
+    - webmaster@someblu.com
+  on_success: change
+  on_failure: always
