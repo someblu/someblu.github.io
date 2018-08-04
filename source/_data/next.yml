@@ -321,7 +321,7 @@ avatar:
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: //cdn.someblu.com/images/avatar.jpg
+  url: /images/avatar.jpg
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -646,7 +646,7 @@ gitment:
   cleanly: true # Hide 'Powered by ...' on footer, and more
   language: # Force language, or auto switch by theme
   github_user: someblu # MUST HAVE, Your Github Username
-  github_repo: Comments # MUST HAVE, The name of the repo you use to store Gitment comments
+  github_repo: someblu.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
   client_id: c32dd54b45d0725aa9db # MUST HAVE, Github client id for the Gitment
   client_secret: 86aaec6d8e19408a909b58acd84ffde7ddd9b569 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
@@ -983,7 +983,7 @@ canvas_ribbon:
 # Please use the https protocol of CDN files when you enable https on your site.
 vendors:
   # Internal path prefix. Please do not edit it.
-  _internal: //cdn.someblu.com/lib
+  _internal: lib
 
   # Internal version: 2.1.3
   jquery:
@@ -1079,6 +1079,6 @@ vendors:
 
 
 # Assets
-css: //cdn.someblu.com/css
-js: //cdn.someblu.com/js
-images: //cdn.someblu.com/images
+css: css
+js: js
+images: images
