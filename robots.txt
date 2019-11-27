@@ -1,0 +1,13 @@
+# SomeBlu
+# robots.txt
+User-agent: *
+Allow: /
+Allow: /posts/
+
+Disallow: /archives/
+Disallow: /lib/
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+
+Sitemap: https://www.someblu.com/sitemap.xml
